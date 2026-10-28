@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Analyst &amp; AI Developer | Portfolio</title>
+  <meta name="description" content="Personal portfolio of a Data Analyst &amp; AI Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" aria-label="Home">Oluwakemi Adeola<span class="accent">.</span></a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <p class="hero-eyebrow reveal">Hello, I'm</p>
+        <h1 class="hero-name reveal">Oluwakemi Adeola</h1>
+        <h2 class="hero-headline reveal">Data Scientist <span class="amp">&amp;</span> AI Developer</h2>
+        <p class="hero-sub reveal">Bridging rigorous analytical research with machine learning pipelines and AI-assisted web development.</p>
+        <div class="hero-ctas reveal">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="https://www.linkedin.com/in/oluwakemi-adeola-data" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Connect on LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+    </section>
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I'm a data professional whose journey began in a quantitative, research-focused scientific background, where I learned to interrogate data with rigor and respect for detail. That foundation carried me into Data Science and AI Development through <strong>GOMYCODE</strong>, where I now build machine learning pipelines and AI-assisted web experiences.</p>
+            <p>My core strengths are deep analytical thinking, a strict attention to data cleanliness and detail, and a passion for turning complex technical metrics into simple, actionable stories that solve real business problems. I don't just crunch numbers — I translate them into decisions.</p>
+          </div>
+          <div class="about-highlights reveal">
+            <div class="highlight-card"><span class="highlight-num">26.6%</span><span class="highlight-label">Attrition modeled &amp; mitigated</span></div>
+            <div class="highlight-card"><span class="highlight-num">ML</span><span class="highlight-label">End-to-end predictive pipelines</span></div>
+            <div class="highlight-card"><span class="highlight-num">AI</span><span class="highlight-label">Prompt-engineered web layouts</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Skills &amp; Expertise</h2>
+        <p class="section-sub reveal">A toolkit spanning data, machine learning, analytics, and AI-assisted development.</p>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3 class="skill-title">Programming &amp; Databases</h3>
+            <ul class="skill-list"><li>Python</li><li>SQL</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3 class="skill-title">Data Science &amp; ML</h3>
+            <ul class="skill-list"><li>Classification Models (KNN, Decision Trees, XGBoost)</li><li>Feature Engineering</li><li>EDA</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3 class="skill-title">Analytics &amp; Tools</h3>
+            <ul class="skill-list"><li>Tableau</li><li>Matplotlib</li><li>Seaborn</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3 class="skill-title">AI &amp; Tools</h3>
+            <ul class="skill-list"><li>Cline AI Agent</li><li>Prompt Engineering</li><li>Git / GitHub</li><li>Jupyter Notebooks</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <p class="section-sub reveal">Selected work showcasing data pipelines and AI-assisted development.</p>
+        <div class="projects-grid" id="projectsGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-container">
+        <h2 class="section-title reveal">Let's Connect</h2>
+        <p class="section-sub reveal">Open to opportunities in data science, ML, and AI development.</p>
+        <div class="contact-actions reveal">
+          <a href="https://www.linkedin.com/in/oluwakemi-adeola-data" target="_blank" rel="noopener noreferrer" class="btn btn-primary">LinkedIn</a>
+          <a href="https://github.com/Dorcasey" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+          <a href="mailto:adeolakemi785@gmail.com" class="btn btn-secondary">Email Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Oluwakemi Adeola. Built with semantic HTML, CSS &amp; JS.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Dorcasey" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/oluwakemi-adeola-data" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
